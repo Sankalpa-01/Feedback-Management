@@ -2,6 +2,8 @@
 
 A full-stack feedback collection tool where businesses (admins) can create feedback forms and view responses, while users can submit feedback via a public link — all without logging in.
 
+Live Link : https://feedback-management-frontend.vercel.app/
+
 ---
 
 ## 🚀 Features
