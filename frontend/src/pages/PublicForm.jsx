@@ -47,28 +47,25 @@ const PublicForm = () => {
   if (!form) return null;
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white px-4 py-10">
-      <div className="max-w-2xl mx-auto bg-gray-800 p-8 rounded-lg shadow-lg">
-        <h2 className="text-3xl font-bold text-cyan-400 mb-6 text-center">
-          {form.title}
-        </h2>
+    <div className="min-h-screen bg-gray-900 text-white p-6">
+      <div className="max-w-2xl mx-auto bg-gray-800 p-6 rounded shadow">
+        <h2 className="text-3xl font-bold mb-6 text-cyan-400">{form.title}</h2>
 
         {form.questions.map((q, i) => (
-          <div key={i} className="mb-6">
-            <FormQuestion
-              index={i}
-              question={q}
-              answer={answers}
-              setAnswer={setAnswers}
-            />
-          </div>
+          <FormQuestion
+            key={i}
+            index={i}
+            question={q}
+            answer={answers}
+            setAnswer={setAnswers}
+          />
         ))}
 
         <button
           onClick={handleSubmit}
-          className="bg-cyan-600 hover:bg-cyan-700 text-white font-semibold px-6 py-3 rounded-lg w-full mt-4 transition duration-200"
+          className="mt-6 bg-cyan-500 hover:bg-cyan-600 text-white px-5 py-2 rounded transition duration-200"
         >
-          Submit Feedback
+          Submit
         </button>
       </div>
     </div>
