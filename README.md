@@ -104,16 +104,11 @@ http://localhost:5173
 
 ---
 
-## 📸 Screenshots
-(Add screenshots here showing dashboard, form creation, public submission, etc.)
-
----
-
 ## 👨‍💻 Author
 
 **Sankalpa Panda**  
-[GitHub](https://github.com/your-username)  
-[LinkedIn](https://linkedin.com/in/your-profile)
+[GitHub](https://github.com/Sankalpa-01)  
+[LinkedIn](https://www.linkedin.com/in/sankalpa-panda-807b78274/)
 
 ---
 
